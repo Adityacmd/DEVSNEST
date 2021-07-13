@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  #board {
+    height: 545px;
+    width: 445px;
+    border: 2px solid lightgray;
+    border-radius: 7px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .cell {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:yellow;
+    font-size: 2rem;
+  }
+  
+  .cell:hover {
+    background-color: purple;
+  }
+  
+  .cell-selected {
+    background-color:blue;
+  }
